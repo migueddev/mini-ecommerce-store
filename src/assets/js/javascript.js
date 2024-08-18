@@ -1,3 +1,5 @@
+import '../css/style.css';
+
 const urlStore = 'https://api.fakestorejson.com/api/v1/public';
 
 class Product {
@@ -165,7 +167,7 @@ async function fetchProducts() {
       );
 
       const productElement = productObject.renderProduct();
-      productElement.querySelector('.card-product__button').addEventListener('click', (e) => {
+      productElement.querySelector('.card-product__button').addEventListener('click', e => {
         e.preventDefault();
         cart.addItem(productObject);
       });
