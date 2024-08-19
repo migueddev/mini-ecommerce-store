@@ -1,14 +1,20 @@
 {
   "name": "mini-ecommerce-store",
   "version": "1.0.0",
-  "description": "",
+  "description": "Ejemplo de un carrito de compras desarrollado con principios de Programación Orientada a Objetos (POO), utilizando únicamente HTML, CSS, y JavaScript vanilla.",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
     "prettier": "prettier --write src"
   },
-  "keywords": [],
+  "keywords": [
+    "store",
+    "ecommerce",
+    "HTML",
+    "CSS",
+    "Javascript"
+  ],
   "author": "Miguel Angel Durán Romero",
   "license": "ISC",
   "devDependencies": {
